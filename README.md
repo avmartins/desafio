@@ -10,6 +10,12 @@ Realizar um exercício simples, de maneira a comprovar conhecimentos básicos na
 
 É necessário as ferramentas mysql, maven, git e tomcat( ou outro servidor de aplicação ) estejam instalado na maquina.
 
+## Fontes do Projeto
+Está no diretório desafio ( aplicação gerada no modelo de IDE Eclipse )
+
+## Arquivo para deployar no Application Server
+desafio.war
+
 Banco e Dados
 -------------
  1) Instalar o MySql 
