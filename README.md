@@ -1,10 +1,10 @@
-# desafio
+# Desafio
 
 Realizar um exercício simples, de maneira a comprovar conhecimentos básicos nas tecnologias utilizadas na Empresa.
 
 ## Tecnologias Utilizadas
 
-	- Spring MVC, Restful, Jersey e MySQL
+- Spring MVC, Restful, Jersey e MySQL
 
 ## Prerequisitos
 
@@ -58,15 +58,15 @@ Simular o Post com dados para inclusão de processamento
 Diretorio dos arquivos gerados ( por convenção padrão windows )
 ------------------------------	   
 	C:\processados - pra alterar entrar na classe ProcessamentoController.java e alterar o caminho como o tempo de execução da task
-					 para melhorar o codigo criar um properties one vai ser colocado tais parametros
+			 para melhorar o codigo criar um properties one vai ser colocado tais parametros
 	
 Configuração do Sistema
 ----------------------	
-	- desafio-servlet.xml
-	- jdbc.properties
-	- web.xml ( Configuração de integração Spring x Jersey)
+   - desafio-servlet.xml
+   - jdbc.properties
+   - web.xml ( Configuração de integração Spring x Jersey)
 	
-	<servlet>
+   <servlet>
         <servlet-name>desafio</servlet-name>
         <servlet-class>
             org.springframework.web.servlet.DispatcherServlet
