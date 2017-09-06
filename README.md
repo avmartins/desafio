@@ -21,7 +21,7 @@ Banco e Dados
  1) Instalar o MySql 
  2) Criar o usuário e senha : desafio / desafio
 	Ou se prefirir alterar o arquivo jdbc.properties que está no diretório desafio\src\main\webapp\WEB-INF para as suas configurações de Banco.
- 3) Executar o Script script_mysql.sql
+ 3) Executar o Script script_mysql.sql que está em desafio/desafio/
 
 Servidor Tomcat
 ---------------
