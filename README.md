@@ -19,7 +19,7 @@ Banco e Dados
 
 Servidor Tomcat
 ---------------
-Instalar o Tomcat versão 8.
+Instalar o Tomcat versão 8 ou o que melhor se encaicar na instituição.
 
 Executar por dentro do Eclipse ( IDE )
 -------------------------------------------------------------------
@@ -42,7 +42,7 @@ Gerar o arquivo war ( arquivo para deploy em um aplication server )
 	   
 Executar a Aplicação	   
 	   
-	1) Copiar o arquivo desafio.war gerado no diretório \desafio\target para o diretório \apache-tomcat-8.5.14\webapps
+	1) Copiar o arquivo desafio.war gerado no diretório \desafio\target para o diretório \apache-tomcat-8\webapps
 	
 	2) Executar o arquivo bat do diretorio : \apache-tomcat-8.5.14\bin\startup.bat ( OBS : CONFGURAÇÃO TODA PADRÃO WINDOWS )
 
@@ -55,9 +55,10 @@ Simular o Post com dados para inclusão de processamento
 	1) Pelo Eclipse
 	   Executar o SimulationClient ( package br.com.desafio.server.endpoints.simulation )
 	   
-Diretorio dos arquivos gerados
+Diretorio dos arquivos gerados ( por convenção padrão windows )
 ------------------------------	   
-	C:\processados
+	C:\processados - pra alterar entrar na classe ProcessamentoController.java e alterar o caminho como o tempo de execução da task
+					 para melhorar o codigo criar um properties one vai ser colocado tais parametros
 	
 Configuração do Sistema
 ----------------------	
